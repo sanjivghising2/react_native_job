@@ -1,0 +1,18 @@
+{
+  "expo": {
+    "scheme": "acme",
+    "web": {
+      "bundler": "metro"
+    },
+    "name": "a",
+    "slug": "a",
+    "extra": {
+      "eas": {
+        "projectId": "9107473c-efe1-422e-a046-a8452b1a0fc5"
+      }
+    },
+    "android": {
+      "package": "com.sanjiv.sharing"
+    }
+  }
+}
