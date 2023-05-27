@@ -5,7 +5,22 @@ Use [`expo-router`](https://expo.github.io/router) to build native navigation us
 ## 🚀 How to use
 
 ```sh
-npx create-expo-app -e with-router
+create react native app
+npx create-expo-app@latest -e with-router ./
+npm install expo-font axios react-native-dotenv
+npm install -g expo-cli
+expo-cli start --tunnel
+
+
+#publish
+expo publish
+npm install --global eas-cli
+eas login
+eas build:configure
+eas build --platform android 
+eas build -p android --profile preview
+
+
 ```
 
 ## 📝 Notes
